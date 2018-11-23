@@ -1,0 +1,80 @@
+.istex-search-form {
+  padding: 0;
+  margin: 0;
+}
+.istex-search-form span {
+  display: inline-block;
+  width:90%;
+  overflow: hidden;
+  padding: 0 0px;
+}
+.istex-search-form span input.istex-search-input {
+  padding: 0;
+  margin: 0;
+  vertical-align: top;
+  width: 100%;
+  background-image: url(../public/img/logo-panist-e1539935228432.png);
+  
+  background-size: auto 130%;
+  background-repeat: no-repeat;
+  background-position: right;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/*background-image: url(../public/img/istexsearch-search-logo.png);*/
+.istex-search-form input.istex-search-submit {
+  float: right;
+  padding: 0;
+  margin: 0;
+  vertical-align: top;
+  margin-left: 5px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.istex-search-form p.istex-search-error {
+  padding: 0;
+  margin: 0;
+  margin-top: 5px;
+  color: #DD4B39;
+  font-size: medium;
+  display: none;
+}
+.istex-search-form div.istex-search-loading {
+  background-image: url(../public/img/istexLoader.gif);
+  background-repeat: no-repeat;
+  float: left;
+  width: 16px;
+  height: 16px;
+  margin-top: 4px;
+  margin-right: 4px;
+}
+.istex-ezproxy-auth-btn {
+  position: relative;
+  padding: 8px;
+}
+.istex-ezproxy-auth-btn div {
+  background-image: url(../public/img/istexsearch-search-logo.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: right;
+  width: 26px;
+  height: 6px;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+
+.istex-advanced-wrapper {
+  width: 90%;
+}
+
+.istex-advanced-wrapper .istex-advanced {
+  display: inline-block;
+  width: 25%;
+}
+.istex-advanced-wrapper .istex-advanced-button{
+  display: inline-block;
+}
