@@ -1,0 +1,21 @@
+{
+  "name": "istex-widgets-angular",
+  "version": "0.1.7",
+  "homepage": "https://github.com/istex/istex-widgets-angular",
+  "authors": [
+    "Thomas Frantz"
+  ],
+  "description": "Widgets istex with AngularJS",
+  "license": "CeCILL",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    ".idea"
+  ],
+  "devDependencies": {},
+  "dependencies": {
+    "bootstrap": "~3.3.2",
+    "angular": "~1.5.2"
+  }
+}
