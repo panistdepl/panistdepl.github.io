@@ -31,7 +31,7 @@ if (bowser.chrome || bowser.chromium) {
 if (bowser.firefox) {
   if (bowser.check({ firefox: "49" })) {
     $('#addingToBrowserAPI').text('Ajouter l\'extension à Firefox');
-    $('#addingToBrowser').attr('href', firefoxLinkAPI);
+    $('#addingToBrowserAPI').attr('href', firefoxLinkAPI);
     $('#addingToBrowser').text('Ajouter l\'extension à Firefox (Demo)');
     $('#docUsers').attr('href', docUrl + '#firefox');
     $('#addingToBrowser').attr('href', firefoxLink);
