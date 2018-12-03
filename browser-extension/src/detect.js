@@ -2,9 +2,9 @@
 
 var firefoxVersion = '1.0.0';
 var firefoxLink    = 'download/panist-' + firefoxVersion + '-an+fx.xpi';
-const docUrl = 'https://doc.istex.fr/users/usage/button/';
+const docUrl = 'https://github.com/panistdepl/panistdepl.github.io/tree/master/browser-extension';
 
-
+/*
 if (bowser.chrome || bowser.chromium) {
   $('#addingToBrowser').text('Ajouter l\'extension à Chrome');
   $('#docUsers').attr('href', docUrl + '#chrome');
@@ -26,7 +26,7 @@ if (bowser.chrome || bowser.chromium) {
     });
   };
 } else 
-
+*/
 if (bowser.firefox) {
   if (bowser.check({ firefox: "49" })) {
     $('#addingToBrowser').text('Ajouter l\'extension à Firefox (Demo)');
